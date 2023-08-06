@@ -33,8 +33,43 @@
 </head>
 <body class="font-lato">
     <header>
-       <section class=" relative mb-20">
+       <section class="mb-5">
+        <!-- navbar -->
+        <nav>
+            <div class="navbar bg-[#F85559]">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <label tabindex="0" class="btn btn-ghost btn-circle">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h7" /></svg>
+                    </label>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About Us</a></li>
+                      <li><a>Shop</a></li>
+                      <li><a>All Fruits</a></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="navbar-center">
+                    <img src="images/logo.png" alt="">
+                  <a class="btn btn-ghost normal-case text-xl text-white">Fruit Burst</a>
+                </div>
+                <div class="navbar-end">
+                  <button class="btn btn-ghost btn-circle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" /></svg>
+                  </button>
+                  <button class="btn btn-ghost btn-circle">
+                    <div class="indicator">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 17h5l-1.405-1.405A2.032 2.032 0 0118 14.158V11a6.002 6.002 0 00-4-5.659V5a2 2 0 10-4 0v.341C7.67 6.165 6 8.388 6 11v3.159c0 .538-.214 1.055-.595 1.436L4 17h5m6 0v1a3 3 0 11-6 0v-1m6 0H9" /></svg>
+                      <span class="badge badge-xs badge-primary indicator-item"></span>
+                    </div>
+                  </button>
+                </div>
+              </div>
+        </nav>
+        </section>
          <!-- banner section -->
+         <section class=" relative mb-20">
          <div class="carousel w-full">
             <!-- banner img 1 -->
             <div id="slide1" class="carousel-item relative w-full ">
@@ -109,8 +144,8 @@
              
         </div>
        </section>   
-       <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 bg-slate-300 w-1/2 gap-5 lg:w-1/2
-       lg:absolute top-[550px] left-96 ">
+       <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 bg-slate-300 w-1/2 gap-5 lg:w-1/2
+       lg:absolute top-[650px] left-96 ">
         <div class="grid gap-5 grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
             <img  src="images/fruit1.png" alt="">
             <img  src="images/fruit2.png" alt="">
@@ -123,20 +158,6 @@
       </section>   
     </header>
     <main>
-        
-       <!-- <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 my-10 bg-slate-300 w-1/2 gap-5  lg:absolute right-16 left-3   bottom-4">
-
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6">
-                <img  src="images/fruit1.png" alt="">
-                <img  src="images/fruit2.png" alt="">
-                <img  src="images/fruit3.png" alt="">
-                <img  src="images/fruit4.png" alt="">
-                <img  src="images/fruit5.png" alt="">
-                <img  class="w-[100px] mb-8" src="images/fruit8.png" alt="">
-                
-            </div>
-        </section> -->
-        <!-- Deal of the day -->
         <section class="max-w-screen-xl mx-auto px-8 md:px-16 lg:px-24 py-5 mb-10 ">
             <div class="flex flex-col gap-16 md:flex-row lg:flex-row justify-between items-center mb-12 ml-10">
                     <div class="flex-1">
@@ -397,10 +418,10 @@
                               <img src="images/member1.png" alt="Shoes" class="rounded-xl" />
                             </figure>
                             <div class="card-body items-center text-center">
-                              <h2 class="card-title text-white text-2xl">Awlad Hossain</h2>
+                              <h2 class="card-title text-white text-2xl">Awlad <br> Hossain</h2>
                               <p class="text-white">Fruits Expert</p>
                             </div>
-                            <div class="grid pl-10 pt-10 grid-cols-3 justify-center items-center">
+                            <div class="grid pl-10  grid-cols-3 justify-center items-center">
                                 <img class="bg-white rounded-full" src="icons/facebook.png" alt="">
                                 <img class="bg-white rounded-full" src="icons/twitter.png" alt="">
                                 <img class="bg-white rounded-full" src="icons/insta.png" alt="">
@@ -475,7 +496,7 @@
           <a class="link link-hover">Shop</a> 
           <a class="link link-hover">All Fruits</a>
           <a class="link link-hover">Support</a>
-          <a class="link link-hover">Support</a>
+          <a class="link link-hover">My Account</a>
         </div>  
         <div>
             <div class="grid grid-flow-col gap-4">
